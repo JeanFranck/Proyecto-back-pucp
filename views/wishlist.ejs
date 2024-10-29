@@ -28,10 +28,6 @@
   <%- include('partials/svg') %>
   <%- include('partials/navbar') %>
 
-
-  <body data-bs-theme="dark">
-    <%- include('partials/navbar') %>
-  
     <section class="hero-section bg-light py-4">
       <div class="container">
         <div class="text-center">
@@ -82,7 +78,7 @@
                 <div class="cart-remove">
                   <a href="/wishlist/remove/<%= producto.id %>">
                     <svg width="32px">
-                      <use xlink:href="/#trash"></use>
+                      <use xlink:href="#trash"></use>
                     </svg>
                   </a>
                 </div>

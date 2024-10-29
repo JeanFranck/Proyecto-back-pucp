@@ -10,6 +10,7 @@ router.get('/checkout', (req, res) => res.render('checkout', { title: 'Checkout'
 router.get('/contact', (req, res) => res.render('contact', { title: 'Contact' }));
 router.get('/shop', (req, res) => res.render('shop', { title: 'Shop' }));
 router.get('/my-account', (req, res) => res.render('my-account', { title: 'My Account' }));
+router.get('/single-product', (req, res) => res.render('single-product', { title: 'Single Product' }));
 router.get('/order-tracking', (req, res) => res.render('order-tracking', { title: 'Order Tracking' }));
 
 // Ruta: Productos (Consulta desde MySQL)

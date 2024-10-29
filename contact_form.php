@@ -219,7 +219,7 @@ if(isset($_POST['name'])) {
 
       <form role="search" method="get" class="form-group" action="">
         <input type="search" id="search-form" class="form-control border-0 border-bottom" placeholder="Type and press enter" value="" name="s" />
-        <button type="submit" class="search-submit border-0 position-absolute bg-white" style="top: 15px;right: 15px;"><svg class="search" width="24" height="24"><use xlink:href="/#search"></use></svg></button>
+        <button type="submit" class="search-submit border-0 position-absolute bg-white" style="top: 15px;right: 15px;"><svg class="search" width="24" height="24"><use xlink:href="#search"></use></svg></button>
       </form>
 
       <h5 class="cat-list-title">Browse Categories</h5>
@@ -458,14 +458,14 @@ if(isset($_POST['name'])) {
             <li>
               <a href="/#like" class="mx-2">
                 <svg width="24" height="24" viewBox="0 0 24 24">
-                  <use xlink:href="/#user"></use>
+                  <use xlink:href="#user"></use>
                 </svg>
               </a>
             </li>
             <li class="search-box" class="mx-2">
               <a href="/#search" class="search-button">
                 <svg width="24" height="24" viewBox="0 0 24 24">
-                  <use xlink:href="/#search"></use>
+                  <use xlink:href="#search"></use>
                 </svg>
               </a>
             </li>
@@ -602,35 +602,35 @@ if(isset($_POST['name'])) {
                 <li>
                   <a href="/#" class="text-secondary">
                     <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="/#facebook"></use>
+                      <use xlink:href="#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
                   <a href="/#" class="text-secondary">
                     <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="/#twitter"></use>
+                      <use xlink:href="#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
                   <a href="/#" class="text-secondary">
                     <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="/#youtube"></use>
+                      <use xlink:href="#youtube"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
                   <a href="/#" class="text-secondary">
                     <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="/#pinterest"></use>
+                      <use xlink:href="#pinterest"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
                   <a href="/#" class="text-secondary">
                     <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="/#instagram"></use>
+                      <use xlink:href="#instagram"></use>
                     </svg>
                   </a>
                 </li>
